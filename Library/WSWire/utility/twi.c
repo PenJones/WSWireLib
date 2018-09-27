@@ -68,7 +68,7 @@ void twi_init(void)
   // initialize state
   twi_state = TWI_READY;
   
-  // DEactivate internal pullups for twi.
+  // Deactivate internal pullups for twi.
   digitalWrite(SDA, 0);
   digitalWrite(SCL, 0);
 
